@@ -68,3 +68,5 @@ def delete_task(todo_id:int):
             return {
                 "message":"Задача Удалена!"}
     raise HTTPException(status_code=404,detail="Задача не найдена для удаления")
+
+print("Hello world!")
